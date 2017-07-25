@@ -13,6 +13,7 @@
     "webpack": "^3.3.0"
   },
   "dependencies": {
+    "angular": "^1.6.5",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^3.0.0",
     "node-sass": "^4.5.3",

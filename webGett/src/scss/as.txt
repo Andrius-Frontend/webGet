@@ -1,0 +1,18 @@
+Projektas - webGet 
+
+Puslapis skirtas paslaugø pardavimui, reprezentavimui - grafikos dizaino, front-end, programavimo paslaugos. 
+
+
+Projekto sandara : 
+
+Pagrindinis puslapis - jame turi bûti tik menu, centralizuotas ir kubeliais. Spalvas atitinkamai pasirenki pats. Pavizdys pagal kurá galima orentuotis : http://www.niceoneilike.com/webdesign-inspiration/829_1_42angels.com-webdesign-inspiration-website-clean-creative.jpg?m=1363913701
+
+
+Meniu punktai : Pagrindinis(webGet ikona), Darbai, Paslaugos, Kontaktai, Apie mus. 
+
+Visi kiti puslapiai veda á kità puslapá, kuriame meniu jau atsiranda kairëje pusëje (jø dizainas turi iðlikti panaðus, bet pakitæs, pritaikytas) Visas contentas yra desiniau. 
+
+Puslapio pagrindinë idëja kad jis bûtø be scroll'o, tai yra viskà sutalpinti á vienà lapà ( O tai planuojama padaryti su javascriptu).
+
+
+Puslapio dizainas - kaip ir minëjau spalvos pasirinktinai, bet svarbiausia, kad jis atspindëtø grafikos sferà, bûtø ðiek tiek modernus ir ið esmës paprastai suprantamas.
