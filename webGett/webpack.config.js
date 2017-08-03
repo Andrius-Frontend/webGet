@@ -1,31 +1,26 @@
-/**
- * Created by Modestas on 17/02/2017.
- */
-
-
 var path = require('path');
 var webpack = require('webpack');
-
-var ROOT_PATH = path.resolve('..');
+ 
+var ROOT_PATH = path.resolve('.');
 var APP_PATH = path.resolve( 'src');
 var BUILD_PATH = path.resolve('build');
-
+ 
 //css export to file
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-
+ 
 //images export to file
 // const imagemin = require('imagemin');
 // const imageminMozjpeg = require('imagemin-mozjpeg');
 //
 // imagemin(['./images/*.jpg', './images/*.png'], './images', {
 //     use: [imageminMozjpeg()]});
-
+ 
 module.exports = {
     entry: APP_PATH+'/js/app.js',
     output: {
         path: BUILD_PATH,
         filename: 'js/main.js',
-        publicPath: '..'
+        publicPath: '/'
     },
     devtool: 'source-map',
     watch: true,
@@ -40,6 +35,7 @@ module.exports = {
             {
                 test: /\.scss$/, use: ExtractTextPlugin.extract({
                 fallback: "style-loader",
+                publicPath: '/',
                 use: [
                     {
                         loader: "css-loader", options: {
@@ -49,7 +45,8 @@ module.exports = {
                         loader: "sass-loader", options: {
                             sourceMap: true
                         }
-                    }]
+                    }
+                    ]
             })
             },
             {
