@@ -1,12 +1,73 @@
 
 
-.navbar {border:0;}
 
-.collapse {padding:0;
-ul {padding:0;
-margin:0;}
 
-}
+
 .second-menu {
 height:170px;
-list-style-type:none;}
+list-style-type:none;
+
+
+}
+
+
+.service-row {
+
+}
+.second-menu-ul {
+padding:0;
+a {
+text-decoration:none;}
+}
+.services-page {
+background-color:#fff;}
+
+.menu-padd {padding:0px;
+}
+
+.menu-button-services {margin-top:55px;
+
+	.menu-services-text {font-family:AvenirNextCyrBold;
+text-align:center;
+display:block;
+	color:#000000;
+	font-size:21px;
+	padding-top:10px;
+	text-decoration:none;
+	}
+.menu-icon {display:block;margin:0 auto;}
+}
+
+.services-more-info {padding:0;
+margin-top:20px;
+margin-bottom:50px;
+
+li {
+list-style-type:none;
+display:block;
+text-align:center;
+text-decoration:none;
+font-size:15px;
+font-family:AvenirNextCyrLight;
+color:#999999;
+}
+}
+
+.services-border {
+border-bottom:1px solid #e7e7e7;
+
+}
+.last-row-services {
+
+}
+
+.page-title {
+display:block;
+color:#fff;
+padding-top:10px;
+font-size:45px;
+font-family:AvenirNextCyrBold;
+}
+
+.services-page {
+min-height:680px;}
