@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
  
-var ROOT_PATH = path.resolve('.');
+var ROOT_PATH = path.resolve('');
 var APP_PATH = path.resolve( 'src');
 var BUILD_PATH = path.resolve('build');
  

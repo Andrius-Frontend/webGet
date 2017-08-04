@@ -2,13 +2,10 @@ body, html {
   height: 120%; }
 
 img.bg {
-  /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
-  /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  /* Set up positioning */
   position: fixed;
   top: 0;
   left: 0; }
@@ -67,33 +64,7 @@ img.bg {
   .highlight .second {
     font-family: AvenirNextCyrBold; }
 
-.picspot {
-  background: url("/../webget/webgett/images/2.png") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
 
-.picspot2 {
-  background: url("/../webget/webgett/images/3.png") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.picspot3 {
-  background: url("/../webget/webgett/images/4.png") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.picspot4 {
-  background: url("/../webget/webgett/images/1.png") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
 
 .logo {
   float: left; }
@@ -199,18 +170,6 @@ img.bg {
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9); }
-
-@font-face {
-  font-family: AvenirNextCyrBold;
-  src: url("/../fonts/AvenirNextCyr-Bold.otf"); }
-
-@font-face {
-  font-family: AvenirNextCyrDemi;
-  src: url("/../fonts/AvenirNextCyr-Demi.otf"); }
-
-@font-face {
-  font-family: AvenirNextCyrLight;
-  src: url("/../fonts/AvenirNextCyr-Light.otf"); }
 
 .navbar {
   border: 0; }
@@ -333,4 +292,4 @@ img.bg {
     .navbar-fixed-side.navbar-inverse .dropdown > .dropdown-toggle {
       color: #777777 !important; } }
 
-/*# sourceMappingURL=main.css.map?dd59a876ed23f9001e25-471d6318e13a7ef3b4ae-2cf6a6878807ca3192e72cb1395cee04-main*/
+/*# sourceMappingURL=main.css.map?1a4f85b54f12e138ecde-00358b8423be4c388c1e-93dc028c3f38bf26e0ae6e1ba9869900-main*/
